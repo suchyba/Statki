@@ -1,0 +1,86 @@
+#include "mapa.hpp"
+#include "statek.hpp"
+#include "allegro_display.hpp"
+
+#ifndef GAME_H_INCLUDED
+#define GAME_H_INCLUDED
+
+enum gracze { G1, G2 };
+
+class game
+{
+private:
+	mapa mTR_G1, mST_G1, mTR_G2, mST_G2, duchy;
+	statek s_g1[10], s_g2[10];
+	int punkty_G1, punty_G2;
+
+    const int wielkosc_pola = 61;
+    const int p_x = 365;
+    const int p_y = 61;
+
+    allegro_display* w;
+
+	bool przygotowanieGry(gracze);
+	void turaGry(gracze);
+	void umiescStatek(unsigned int, unsigned int, gracze, unsigned int, kat, bool);
+	void umiescPuste(unsigned int, unsigned int, gracze, unsigned int, kat, bool);
+	bool sprawdzCzyMozliwyRuch(unsigned int, unsigned int, gracze, unsigned int, kat);
+	void wyswietlWrunkowo(mapa, mapa, char);
+	void resetujDane(gracze);
+	void wyswietlMapeAllegro(gracze);
+
+	int getIloscModulowByXY(unsigned int, unsigned int, bool, gracze) const;
+	int getRotationByXY(unsigned int, unsigned int, bool, gracze) const;
+
+public:
+	/** @name constructor */
+	game()
+	{
+		s_g1[0] = statek(-1, -1, 1);
+		s_g1[1] = statek(-1, -1, 1);
+		s_g1[2] = statek(-1, -1, 1);
+		s_g1[3] = statek(-1, -1, 1);
+
+		s_g1[4] = statek(-1, -1, 2);
+		s_g1[5] = statek(-1, -1, 2);
+		s_g1[6] = statek(-1, -1, 2);
+
+		s_g1[7] = statek(-1, -1, 3);
+		s_g1[8] = statek(-1, -1, 3);
+
+		s_g1[9] = statek(-1, -1, 4);
+
+
+		s_g2[0] = statek(-1, -1, 1);
+		s_g2[1] = statek(-1, -1, 1);
+		s_g2[2] = statek(-1, -1, 1);
+		s_g2[3] = statek(-1, -1, 1);
+
+		s_g2[4] = statek(-1, -1, 2);
+		s_g2[5] = statek(-1, -1, 2);
+		s_g2[6] = statek(-1, -1, 2);
+
+		s_g2[7] = statek(-1, -1, 3);
+		s_g2[8] = statek(-1, -1, 3);
+
+		s_g2[9] = statek(-1, -1, 4);
+
+		mTR_G1 = mapa();
+		mST_G1 = mapa();
+		mTR_G2 = mapa();
+		mST_G2 = mapa();
+
+		duchy = mapa();
+
+		punkty_G1 = 0;
+		punty_G2 = 0;
+	}
+	/** @name main game thread */
+	void watekGry();
+
+};
+
+
+
+
+#endif // GAME_H_INCLUDED

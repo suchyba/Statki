@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1476788140 source:c:\projekty\2d1\statki\statki\main.cpp
+	<iostream>
+	<windows.h>
+	"game.h"
+
+1480922252 c:\projekty\2d1\statki\statki\game.h
+	"mapa.h"
+	"statek.h"
+
+1480318770 c:\projekty\2d1\statki\statki\mapa.h
+
+1480423458 c:\projekty\2d1\statki\statki\statek.h
+
+1481029342 source:c:\projekty\2d1\statki\statki\game.cpp
+	<windows.h>
+	<iostream>
+	<conio.h>
+	"game.h"
+
+1480318865 source:c:\projekty\2d1\statki\statki\mapa.cpp
+	<iostream>
+	"mapa.h"
+
+1480423517 source:c:\projekty\2d1\statki\statki\statek.cpp
+	"statek.h"
+

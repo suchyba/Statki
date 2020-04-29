@@ -1,0 +1,630 @@
+# depslib dependency file v1.0
+1485332197 source:c:\projekty\2d1\statki\statki\main.cpp
+	<iostream>
+	<windows.h>
+	"game.hpp"
+
+1485248368 c:\projekty\2d1\statki\statki\game.h
+	"mapa.h"
+	"statek.h"
+
+1483446615 c:\projekty\2d1\statki\statki\mapa.h
+
+1485248567 c:\projekty\2d1\statki\statki\statek.h
+
+1486638077 source:c:\projekty\2d1\statki\statki\game.cpp
+	<windows.h>
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<allegro5/events.h>
+	<allegro5/keyboard.h>
+	<allegro5/keycodes.h>
+	"game.hpp"
+	"allegro_display.hpp"
+
+1486068302 source:c:\projekty\2d1\statki\statki\mapa.cpp
+	<iostream>
+	"mapa.h"
+
+1486061903 source:c:\projekty\2d1\statki\statki\statek.cpp
+	"statek.hpp"
+
+1486069215 c:\projekty\2d1\statki\statki\game.hpp
+	"mapa.hpp"
+	"statek.hpp"
+	"allegro_display.hpp"
+
+1485760775 c:\projekty\2d1\statki\statki\mapa.hpp
+
+1486061919 c:\projekty\2d1\statki\statki\statek.hpp
+
+1486163310 c:\projekty\2d1\statki\statki\allegro_display.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/keyboard.h>
+	<allegro5/keycodes.h>
+	<string>
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1484217500 c:\projekty\codeblocks allegro\allegro\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1484217501 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\alplatf.h
+
+1484217501 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1484217500 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1484217501 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1484217501 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1484217501 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1484217500 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1484217500 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1484217501 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\alunix.h
+
+1484217501 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1484217501 c:\projekty\codeblocks allegro\allegro\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1484217497 c:\projekty\codeblocks allegro\allegro\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\color.h
+	"allegro5/base.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1484217499 c:\projekty\codeblocks allegro\allegro\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\path.h
+	"allegro5/base.h"
+
+1484217497 c:\projekty\codeblocks allegro\allegro\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\blender.h
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\config.h
+	"allegro5/file.h"
+
+1484217497 c:\projekty\codeblocks allegro\allegro\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1484217497 c:\projekty\codeblocks allegro\allegro\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\error.h
+	"allegro5/base.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1484217499 c:\projekty\codeblocks allegro\allegro\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1484217500 c:\projekty\codeblocks allegro\allegro\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\fullscreen_mode.h
+
+1484217497 c:\projekty\codeblocks allegro\allegro\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\keycodes.h
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\memory.h
+
+1484217499 c:\projekty\codeblocks allegro\allegro\include\allegro5\monitor.h
+
+1484217499 c:\projekty\codeblocks allegro\allegro\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1484217499 c:\projekty\codeblocks allegro\allegro\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\timer.h
+	"allegro5/base.h"
+
+1484217497 c:\projekty\codeblocks allegro\allegro\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1484217497 c:\projekty\codeblocks allegro\allegro\include\allegro5\alcompat.h
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\allegro_image.h
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1484217498 c:\projekty\codeblocks allegro\allegro\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1486163737 source:c:\projekty\2d1\statki\statki\allegro_display.cpp
+	"allegro_display.hpp"
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/keyboard.h>
+	<allegro5/keycodes.h>
+	<iostream>
+
+1486032055 source:c:\users\suchyba\desktop\statki\statki\allegro_display.cpp
+	"allegro_display.hpp"
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<iostream>
+
+1485937673 c:\users\suchyba\desktop\statki\statki\allegro_display.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<string>
+
+1485332197 source:c:\users\suchyba\desktop\statki\statki\main.cpp
+	<iostream>
+	<windows.h>
+	"game.hpp"
+
+1485936248 c:\users\suchyba\desktop\statki\statki\game.hpp
+	"mapa.hpp"
+	"statek.hpp"
+	"allegro_display.hpp"
+
+1485760775 c:\users\suchyba\desktop\statki\statki\mapa.hpp
+
+1485248567 c:\users\suchyba\desktop\statki\statki\statek.hpp
+
+1485248360 source:c:\users\suchyba\desktop\statki\statki\mapa.cpp
+	<iostream>
+	"mapa.h"
+
+1483446615 c:\users\suchyba\desktop\statki\statki\mapa.h
+
+1485332224 source:c:\users\suchyba\desktop\statki\statki\statek.cpp
+	"statek.hpp"
+
+1486163737 source:c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\allegro_display.cpp
+	"allegro_display.hpp"
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/keyboard.h>
+	<allegro5/keycodes.h>
+	<iostream>
+
+1486163310 c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\allegro_display.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/keyboard.h>
+	<allegro5/keycodes.h>
+	<string>
+
+1485332197 source:c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\main.cpp
+	<iostream>
+	<windows.h>
+	"game.hpp"
+
+1486069215 c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\game.hpp
+	"mapa.hpp"
+	"statek.hpp"
+	"allegro_display.hpp"
+
+1485760775 c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\mapa.hpp
+
+1486061919 c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\statek.hpp
+
+1486068302 source:c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\mapa.cpp
+	<iostream>
+	"mapa.h"
+
+1483446615 c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\mapa.h
+
+1486061903 source:c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\statek.cpp
+	"statek.hpp"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1372618728 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alplatf.h
+
+1368959108 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1368959108 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1368959108 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1368959108 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1368959108 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1368959108 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alunix.h
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\color.h
+	"allegro5/base.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\path.h
+	"allegro5/base.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1372617484 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\blender.h
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\config.h
+	"allegro5/file.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\error.h
+	"allegro5/base.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1368959108 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\fullscreen_mode.h
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\keycodes.h
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\memory.h
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\monitor.h
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\timer.h
+	"allegro5/base.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\alcompat.h
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_image.h
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1372617532 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1362323900 c:\users\suchyba\desktop\codeblocks allegro\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1486165896 source:c:\users\suchyba\desktop\codeblocks allegro\projekty allegro\statki\statki\game.cpp
+	<windows.h>
+	<iostream>
+	<conio.h>
+	<allegro5/events.h>
+	<allegro5/keyboard.h>
+	<allegro5/keycodes.h>
+	"game.hpp"
+	"allegro_display.hpp"
+
